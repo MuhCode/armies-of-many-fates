@@ -1,0 +1,26 @@
+# Godot 4
+.godot/
+*.translation
+export_presets.cfg
+
+# Docker & Secrets
+.env
+docker-compose.override.yml
+*.pem
+*.key
+
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# PostgreSQL & ELK Stack Local Data
+pgdata/
+postgres_data/
+es_data/
+kibana_data/
+*.log
+logs/
+
+# IDE and Editor Workspaces
+.vscode/
+.idea/
